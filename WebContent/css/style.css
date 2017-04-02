@@ -1,0 +1,174 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+body {
+	background: #ffffcc ;
+	font-family: "Lato" ;
+}
+.loginbox {
+	width:350px;
+	height: auto;
+	margin: auto;
+	margin-top: 2%;
+}
+
+.loginbox input[type="radio"] {
+	height: 20px;
+	margin: inherit;
+}
+.title{
+	height: auto;
+	margin: auto;
+	margin-top: 13%;
+	font-family:Lato ;
+    text-align: center;
+
+}
+
+.normal_title{
+	height: auto;
+	margin: auto;
+	margin-top: 3%;
+	font-family:Lato ;
+    text-align: center;
+}
+
+.margin-top-10 {
+	margin-top: -10%;
+}
+
+.logout {
+	float: right;
+	margin-right: 2%;
+	font-family: "Lato";
+	text-align: center;
+}
+
+.form_title {
+	width: 250px;
+	height: auto;
+	margin: auto;
+	margin-top: 2%;
+	font-family:Lato ;
+	font-weight: bolder;
+    text-align: center;
+}
+
+.wrap_form {
+	display: flex;
+    width: 350px;
+}
+
+.loginbox label{
+	width: 40%;
+    align-self: center;
+}
+
+.sec_password{
+	margin: auto;
+	margin-bottom: 7%;
+	text-align: center;
+}
+
+.success_message {
+	height: auto;
+	margin: auto;
+	margin-top: 2%;
+	font-family:Lato ;
+}
+
+.loginbox input {
+	background: #fff;
+	font-family:Lato ;
+	font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: calc(100% - 24px) ;
+	margin: auto;
+	padding: 6px 12px 6px 12px;
+}
+
+.loginbox select {
+	border: none;
+	background: #fff;
+	font-family:Lato ;
+	font-weight:700 ;
+	display: block;
+	height: 40px;
+	outline: none;
+	width: 100%;
+	padding: 6px 12px 6px 12px;
+}
+
+.line_separator {
+	width: 100%;
+	height: 1px;
+	background: #fff ;
+}
+.line_separator i {
+	width: 95%;
+	margin: auto;
+	height: 1px ;
+	display: block;
+	background: #d1d1d1;
+}
+
+.forgot_link {
+	color: #83afdf ;
+	color: #83afdf;
+	text-decoration: none;
+	font-size: 11px;
+	position: relative;
+	left: 193px;
+	top: -36px;
+}
+
+.loginbox input[type="submit"]:disabled {
+	background: #ffbcb7;
+	color: white;
+}
+
+.loginbox input[type="submit"] {
+	width: 100%;
+	border-radius: 7px;
+	background: #b6ee65;
+	text-decoration: center;
+	border: none;
+	color: #51771a;
+	margin-top:10px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	outline: none;
+	font-size: 13px;	
+	border-bottom: 3px solid #307d63;
+	cursor: pointer;
+}
+
+#lower {
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+#table_format {
+    border-collapse: collapse;
+    width: 50%;
+	margin: auto;
+    margin-top: 5%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
